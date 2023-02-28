@@ -19,7 +19,8 @@ function Header() {
         </div>
         <div className="mx-w-[20%] mr-10 hidden justify-end gap-5 rounded-md bg-[#EEEEEE] py-1 px-3 md:mr-0 md:flex">
           {/* right */}
-          <Link className="border-r-3  text-lg font-medium">Login </Link>
+          <Link className="border-r-3  text-lg font-medium">Login</Link>
+          <span>|</span>
           <Link className="rounded-lg   text-lg font-medium ">Sign Up</Link>
         </div>
       </div>

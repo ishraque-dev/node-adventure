@@ -43,7 +43,7 @@ function Banner() {
     prevArrow: <SamplePrevArrow />,
   };
   return (
-    <div className="relative my-10  min-h-[550px]  w-full overflow-hidden rounded-3xl ">
+    <div className=" relative  my-10 h-[200px]  w-full overflow-hidden rounded-3xl sm:h-[400px] md:h-[440px] lg:h-[550px] ">
       <div className="absolute top-10 left-0 right-0 z-30 m-auto text-center">
         <div className="w-full">
           <p className="mb-3 text-base md:text-xl ">
@@ -57,15 +57,15 @@ function Banner() {
       {/* slider */}
 
       <Slider {...settings}>
-        <img src="/imgs/mainBanner.jpg " className="h-full object-contain" />
+        <img src="/imgs/mainBanner.jpg " className="" />
         <div className="h-full">
-          <img src="/imgs/mainBanner2.jpg " className="h-full object-contain" />
+          <img src="/imgs/mainBanner2.jpg " className="" />
         </div>
         <div className="h-full">
-          <img src="/imgs/mainBanner3.jpg " className="h-full object-contain" />
+          <img src="/imgs/mainBanner3.jpg " className="" />
         </div>
         <div className="h-full">
-          <img src="/imgs/mainBanner4.jpg " className="h-full object-contain" />
+          <img src="/imgs/mainBanner4.jpg " className="" />
         </div>
       </Slider>
     </div>

@@ -85,7 +85,7 @@ const NavBar = () => {
           />
         )}
         {open && (
-          <div className="sidebar absolute right-0 top-0 z-50 h-full w-1/3 rounded-l-md bg-[#232F3E]">
+          <div className="sidebar absolute right-0 top-0 z-50 h-full w-1/3 animate-slideright rounded-l-md bg-[#232F3E]">
             {navItems.map((navItem) => (
               <NavLink
                 key={navItem.name}
